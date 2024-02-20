@@ -1,0 +1,47 @@
+.best {
+  width: 1280px;
+  height: 398px;
+  margin: 0 auto;
+  display: flex;
+  gap: 81px;
+  margin-bottom: 128px;
+  .left {
+    width: 624px;
+    height: 316px;
+    & h6 {
+      color: #000;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 32px;
+      margin-top: 41px;
+      opacity: 0.87;
+    }
+    & h3 {
+      width: 624px;
+      height: 168px;
+      color: #232536;
+      font-family: Poppins;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 56px;
+      margin: 16px 0;
+    }
+    & p {
+      width: 622px;
+      color: #282938;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      opacity: 0.7;
+    }
+  }
+  .right {
+    width: 575px;
+    height: 398px;
+  }
+}

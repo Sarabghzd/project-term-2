@@ -1,0 +1,72 @@
+.process {
+  width: 1280px;
+  height: 268px;
+  margin: 128px auto;
+  .top {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    & h2 {
+      color: #282938;
+      font-family: Poppins;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      margin-bottom: 48px;
+    }
+  }
+  .bottom {
+    width: inherit;
+    height: 268px - 64px - 48px;
+    display: grid;
+    grid-template-columns: repeat(4, 272px);
+    column-gap: 56px;
+    .card {
+      width: 296px;
+      height: 156px;
+      .shape {
+        display: flex;
+        & svg {
+          width: 24px;
+          height: 24px;
+        }
+        .line {
+          height: 2px;
+          opacity: 0.4;
+          vertical-align: middle;
+          & hr {
+            border: 2px dotted #2405f2;
+            border-style: none none dashed;
+            opacity: 0.4;
+            width: 224px;
+            display: inline-block;
+            margin-top: 12.37px;
+            vertical-align: top;
+            margin-left: 24px;
+          }
+        }
+      }
+      & h6 {
+        width: 296px;
+        color: #282938;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        margin-top: 32px;
+      }
+      & p {
+        width: 272px;
+        color: #282938;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 8px;
+        opacity: 0.7;
+      }
+    }
+  }
+}

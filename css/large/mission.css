@@ -1,0 +1,103 @@
+.mission {
+  width: 100%;
+  height: auto;
+  background-color: #eef4fa;
+  .center {
+    width: 84%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 28px;
+    .ourmission1 {
+      width: 100%;
+      height: 336px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 10px;
+      .left {
+        width: 100%;
+        padding-top: 30px;
+        & h6 {
+          color: #282938;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 28px;
+        }
+        & h3 {
+          color: #282938;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 56px;
+          margin: 10px 0;
+        }
+        & p {
+          width: 100%;
+          color: #282938;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px;
+          opacity: 0.7;
+        }
+      }
+      .right {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .ourmission2 {
+      width: 100%;
+      height: auto;
+      margin-top: 25px;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      column-gap: 10px;
+      .right {
+        width: 100%;
+        padding-top: 10px;
+        & h6 {
+          color: #282938;
+          text-align: left;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 28px;
+          width: fit-content;
+        }
+        & h3 {
+          width: fit-content;
+          color: #282938;
+          font-family: Poppins;
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 56px;
+          margin: 16px 0;
+        }
+        & p {
+          width: fit-content;
+          color: #282938;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px;
+          opacity: 0.7;
+        }
+      }
+      .left {
+        width: inherit;
+        & img {
+          width: inherit;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+.features-section {
+  width: 100%;
+  height: auto;
+  border: 1px solid #000;
+  background-color: #1c1e53;
+  border-top: unset;
+  .center {
+    width: 84%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    .left {
+      width: 50%;
+      /* // height: 332px; */
+      margin-top: 47px;
+      & h1 {
+        width: 100%;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 54px;
+      }
+      & p {
+        width: 100%;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        opacity: 0.7;
+        margin: 32px 0;
+        text-align: justify;
+      }
+      & button {
+        width: 170px;
+        height: 44px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fcd980;
+        border-radius: 41px;
+        margin-bottom: 10px;
+
+        & a {
+          width: inherit;
+          height: inherit;
+          text-decoration: none;
+          color: #282938;
+          font-family: Manrope;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 44px;
+        }
+      }
+    }
+    .right {
+      width: 50%;
+      /* // height: 409px; */
+      margin-top: 128px;
+      & img {
+        width: 100%;
+      }
+    }
+  }
+}
+.logosection1 {
+  width: 84%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  .number {
+    width: 176px;
+    height: 84px;
+    & h3 {
+      width: 176px;
+      color: #282938;
+      font-family: Poppins;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 56px;
+    }
+    & p {
+      width: 124px;
+      color: #282938;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      opacity: 0.7;
+    }
+  }
+  .logo {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    & a {
+      text-decoration: none;
+      & svg {
+        width: 88%;
+      }
+    }
+  }
+}

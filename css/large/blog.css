@@ -1,0 +1,82 @@
+.blog {
+  width: 84%;
+  margin: 0 auto;
+  .heading {
+    margin-bottom: 64px;
+    & h2 {
+      color: #282938;
+      font-family: Poppins;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 64px;
+    }
+  }
+  .info {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 50px;
+    margin-bottom: 45px;
+    .card {
+      width: 100%;
+      position: relative;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      & img {
+        width: 405px;
+        height: 285px;
+      }
+      .text {
+        width: 50%;
+        position: absolute;
+        top: 0;
+        left: 420px;
+        margin-top: 5px;
+        & label {
+          width: 93px;
+          color: #282938;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          opacity: 0.7;
+        }
+        & h6 {
+          width: 405px;
+          color: #282938;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 36px;
+          margin-top: 16px;
+        }
+        & p {
+          width: 405px;
+          color: #282938;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px;
+          opacity: 0.7;
+          margin-top: 16px;
+          margin-bottom: 32px;
+        }
+        & a {
+          color: #282938;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 28px;
+          text-decoration: none;
+          & svg {
+            margin-left: 12px;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}

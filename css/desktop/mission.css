@@ -1,0 +1,88 @@
+.mission {
+  width: 100%;
+  height: 1022px;
+  background-color: #eef4fa;
+  .center {
+    width: 84%;
+    height: inherit;
+    margin: 0 auto;
+    padding-top: 128px;
+    .ourmission1 {
+      width: 100%;
+      height: 336px;
+      display: grid;
+      grid-template-columns: 623px 515px;
+      column-gap: 140px;
+      .left {
+        padding-top: 54px;
+        & h6 {
+          color: #282938;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 28px;
+        }
+        & h3 {
+          color: #282938;
+          font-family: Poppins;
+          font-size: 38px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 56px;
+          margin: 16px 0;
+        }
+        & p {
+          width: 623px;
+          color: #282938;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px;
+          opacity: 0.7;
+        }
+      }
+    }
+    .ourmission2 {
+      width: 100%;
+      height: 336px;
+      margin-top: 96px;
+      display: grid;
+      grid-template-columns: 514px 623px;
+      column-gap: 143px;
+      .right {
+        padding-top: 53px;
+        & h6 {
+          color: #282938;
+          text-align: left;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 28px;
+        }
+        & h3 {
+          width: 623px;
+          color: #282938;
+          font-family: Poppins;
+          font-size: 38px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 56px;
+          margin: 16px 0;
+        }
+        & p {
+          width: 623px;
+          color: #282938;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
